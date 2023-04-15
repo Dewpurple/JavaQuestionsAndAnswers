@@ -3,7 +3,7 @@ package uniqueelement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UniqueElementsinArrayList {
+public class Q03_UniqueElementsinArrayList {
     //   Check if all elements are unique in an integer List by using loops.
 
     public static void main(String[] args) {
