@@ -11,7 +11,7 @@ public class Q01 {
             Note: Be careful about the orders of conditions in the solution
              */
     public static void main(String[] args) {
-        String passsword="a112 67bc";
+        String passsword="a11b23456";
 
         boolean passwordNoSpaceRule= passsword.replaceAll("[^\\s]","").length()>0;//if it returns true, my condition will be false
         boolean passwordRuleForLength=passsword.replaceAll("[\\s+]","").length()<8;//if it returns true, my condition will be false
@@ -22,7 +22,7 @@ public class Q01 {
                 .replaceAll("[\\s]","").length()>0;//if it returns true, my condition will be true
 
 
-        if(passwordNoSpaceRule ||passwordRuleForLength || passwordwithA || passwordandwithB){//even there is only one true, the condition will be run
+        if(passwordNoSpaceRule ||passwordRuleForLength || !passwordwithA || !passwordandwithB){//even there is only one true, the condition will be run
         //returns True               //returns True          //returns True      //returns True
        //(means false password)     (means false password)    (means true password)  (means true password)
 
@@ -33,7 +33,6 @@ public class Q01 {
            }if(!passwordwithA || !passwordandwithB){
                System.out.println("INVALID!!!... at least one a and b must exist in your password");
            }
-
        }else{
             System.out.println("VALID!!! PASSWORD");
         }
