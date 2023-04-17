@@ -23,8 +23,8 @@ public class Q01 {
 
 
         if(passwordNoSpaceRule ||passwordRuleForLength || !passwordwithA || !passwordandwithB){//even there is only one true, the condition will be run
-        //returns True               //returns True          //returns True      //returns True
-       //(means false password)     (means false password)    (means true password)  (means true password)
+        //returns True               //returns True          //returns !True      //returns !True
+       //(means false password)     (means false password)    (means !true password)  (means !true password)
 
             if (passwordNoSpaceRule) {
                System.out.println("INVALID!!!... No Space character");
