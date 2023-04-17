@@ -41,9 +41,11 @@ public class Q02 {
         String s="900";
         Integer snewValueOfInt= Integer.valueOf(s);
         int newsparseOfint= Integer.parseInt(s);
+        Integer newparseOfInteger=Integer.parseInt(s);
 
         System.out.println("snewValueOfInt = " + snewValueOfInt);
         System.out.println("newsparseOfint = " + newsparseOfint);
+        System.out.println("newparseOfInteger = " + newparseOfInteger);
 
         String st="12345678";
         double newstParseDouble=Double.parseDouble(st);
