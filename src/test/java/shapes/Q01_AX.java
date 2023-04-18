@@ -1,7 +1,6 @@
-package ifstatement.shapes;
+package shapes;
 
 public class Q01_AX {
-
     // Type code to draw the following image by using a for loop.
 
     /*
@@ -12,18 +11,21 @@ public class Q01_AX {
      */
     public static void main(String[] args) {
 
-        for (int i = 0; i <4 ; i++) {
-            for (int j = 0; j <8 ; j++) {
 
-                if(i>0 && j>0 && j<7){
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 8; j++) {
+
+                if (i > 0 && j > 0 && j < 7) {
                     System.out.print("X ");
-                }else{
+
+                } else {
                     System.out.print("A ");
+
                 }
+
 
             }
             System.out.println();
         }
-
     }
 }
