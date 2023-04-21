@@ -1,7 +1,10 @@
 package switchstatementandoverloading;
 
 import java.util.Scanner;
-
+    /*
+    Use switch statement to create a simple calculator which does addition, subtraction,
+    multiplication, and division with any 2 numbers
+     */
 public class Q05_CalculatorWithMethod {
 
     public static void main(String[] args) {
