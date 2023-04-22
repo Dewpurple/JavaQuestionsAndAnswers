@@ -16,7 +16,8 @@ public class Q09_AlphabeticalCharactersWithMathRandom {
 
         String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         double randomIDX = Math.random();
-        int alphabet = (int) (randomIDX * 10);
+     //   int alphabet = (int) (randomIDX * 10);
+        int alphabet = (int) (randomIDX * str.length()-1);
         System.out.println("a = " + str.charAt(alphabet));
 
         switch (str.toLowerCase().charAt(alphabet)){

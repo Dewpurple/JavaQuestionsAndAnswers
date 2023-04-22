@@ -20,5 +20,26 @@ public class Q01_ElementsRotate01 {
         }
 
         System.out.println(Arrays.toString(newNum));
+
+        System.out.println();
+        System.out.println("***************  2.way *************");
+
+        int [] numbers={1,2,3};
+        int []rotateNumbers= new int[numbers.length];
+
+        int firstIdx=numbers[0];
+        rotateNumbers[rotateNumbers.length-1]=numbers[0];
+        System.out.println("rotateNumbers = " + Arrays.toString(rotateNumbers));
+
+
+        for (int i = 1; i < numbers.length ; i++) {
+
+            System.out.println(i);
+            rotateNumbers[i-1]+=numbers[i];
+            //0+=2   1+=3
+
+            System.out.println("Arrays.toString(rotateNumbers) = " + Arrays.toString(rotateNumbers));
+
+        }
     }
 }
