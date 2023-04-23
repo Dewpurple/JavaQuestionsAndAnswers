@@ -3,20 +3,11 @@ package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q27_InterviewQ_ScannerAndArrays {
+public class Q27_InterviewQ_ScannerAndArrays_2ArraysSame {
 
     /*
-         ===Interview Question===
-        * Anagram is to create a new word from other word's characters.
-		 * Write java code to check if two words are anagram or not
-		 * isAnagram("listen", "Silent") ==> anagram
-		 * Dormitory = Dirty room
-		 * School master = The classroom
-		 * Conversation = Voices rant on
-		 * Listen = Silent
-		 * Astronomer = Moon starer
-        */
-
+    Ask to user enter 2 string arrays, and check their elements are same or not
+     */
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

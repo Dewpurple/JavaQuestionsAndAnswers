@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q13_DifferenceBetweenSmallest_GreatestElements {
+public class Q13_DiffBtwnSmallest_Greatest_Scanner {
 
     /*
     Create an integer array by getting the elements from the user then print the difference
@@ -24,7 +24,7 @@ between the smallest and the greatest elements on the console.
 
         Arrays.sort(arrFromUser);
 
-        int difArrFirst_Last= arrFromUser[arrFromUser.length-1]-arrFromUser[0];
-        System.out.println("difArrFirst_Last = " + difArrFirst_Last);
+//        int difArrFirst_Last= arrFromUser[arrFromUser.length-1]-arrFromUser[0];
+//        System.out.println("difArrFirst_Last = " + difArrFirst_Last);
     }
 }

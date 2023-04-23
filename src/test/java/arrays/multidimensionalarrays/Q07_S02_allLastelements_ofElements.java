@@ -1,6 +1,6 @@
 package arrays.multidimensionalarrays;
 
-public class Q07_allLastelements_ofElements {
+public class Q07_S02_allLastelements_ofElements {
 
     /*
     Find the product of the last elements in the array elements of the

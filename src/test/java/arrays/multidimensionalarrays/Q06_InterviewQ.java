@@ -1,2 +1,8 @@
-package arrays.multidimensionalarrays;public class Q06_InterviewQ {
+package arrays.multidimensionalarrays;
+
+import java.util.Scanner;
+
+public class Q06_InterviewQ {
+
+
 }

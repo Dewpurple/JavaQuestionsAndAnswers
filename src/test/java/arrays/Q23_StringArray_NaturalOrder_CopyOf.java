@@ -1,9 +1,8 @@
 package arrays;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
-public class Q23_StringArray_NaturalOrder {
+public class Q23_StringArray_NaturalOrder_CopyOf {
     //Check if the array elements are in the natural order. "A", "B", "C" ==> true  -  "A", "C", "B" ==> false
     public static void main(String[] args) {
         String sarr[] = {"Albert", "Stranger","Camus", };

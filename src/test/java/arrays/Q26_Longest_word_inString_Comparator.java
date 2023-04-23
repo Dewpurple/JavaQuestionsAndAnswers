@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Q26_Longest_word_inString {
+public class Q26_Longest_word_inString_Comparator {
 
     // Find the longest word in a String
     public static void main(String[] args) {
