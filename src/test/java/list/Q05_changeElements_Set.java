@@ -28,6 +28,10 @@ Example: (12, 11, 15, 34, 43) ==> Output is (12, 11, 51, 34, 43)
 
         System.out.println("g = " + g);
 
+
+        System.out.println();
+        System.out.println("************ 2 way****************8");
+
         if(g.contains(15)){
             for(int w : g){
                 if(w==15){
