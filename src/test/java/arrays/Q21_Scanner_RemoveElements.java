@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q21_RemoveElements {
+public class Q21_Scanner_RemoveElements {
 
     /*
           /* Create an integer array by the help of user(ask user length and elements of array)

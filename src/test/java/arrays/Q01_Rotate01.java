@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class Q01_ElementsRotate01 {
+public class Q01_Rotate01 {
          /*
         Type a program like; given an array whose length is 3, return an array with the
         elements "rotated left"

@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q13_DiffBtwnSmallest_Greatest_Scanner {
+public class Q13_Scanner_DiffBtwnSmallest_Greatest {
 
     /*
     Create an integer array by getting the elements from the user then print the difference
