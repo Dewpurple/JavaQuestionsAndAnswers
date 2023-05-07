@@ -15,8 +15,8 @@ public class Q00_JaggedArrays {
         int[][] arr1 = {{1, 2}, {3, 4, 5}, {6,12,100}};
         int[][] arr2 = {{7, 8, 9}, {10, 11}, {12,18}};
 
-        int len1 = arr1.length;//3
-        int len2 = arr2.length;//3
+        int len1 = arr1.length;
+        int len2 = arr2.length;
 
         getJaggedArrays(arr1, arr2, len1, len2);
 
@@ -24,7 +24,6 @@ public class Q00_JaggedArrays {
 
     public static void getJaggedArrays(int[][] arr1, int[][] arr2, int len1, int len2) {
         if (len1 < len2 || len1 == len2) {
-
             int[][] nadd = new int[len1][];
 
              for (int i = 0; i < arr1.length; i++) {
