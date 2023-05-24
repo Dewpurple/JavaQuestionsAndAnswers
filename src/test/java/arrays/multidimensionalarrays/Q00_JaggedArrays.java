@@ -23,6 +23,7 @@ public class Q00_JaggedArrays {
     }
 
     public static void getJaggedArrays(int[][] arr1, int[][] arr2, int len1, int len2) {
+
         if (len1 < len2 || len1 == len2) {
             int[][] nadd = new int[len1][];
 
