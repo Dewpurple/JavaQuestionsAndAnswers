@@ -12,15 +12,20 @@ prime number”, if user enters negative integers output will be “Enter a posi
          */
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num=input.nextInt();
+
+
 
         int flag=0;
+
         do{
 
+            System.out.println("Enter a number");
+            int num=input.nextInt();
+
             if(num<=0){
-                System.out.println("positive num pls");
-            }else {
+                System.out.println("enter a positive");
+            }
+
                 for (int i = 1; i <= num; i++) {
                     if (num % i == 0) {
                         flag++;
@@ -28,22 +33,19 @@ prime number”, if user enters negative integers output will be “Enter a posi
                 }
 
 
+            if (flag == 2){
+                System.out.println(" prime");
+            }else if(flag!=2){
+                System.out.println("not prime");
             }
 
 
-                if (flag == 2) {
-                    System.out.println(" prime");
-                } else if (flag != 2) {
-
-                }
-
-            System.out.println("If u want to Continue press C, if u want to Exit press E");
-
-            String s=input.next();
-            if(s.equalsIgnoreCase("C")){
-
-            }else if(s.equalsIgnoreCase("E")){
+            System.out.println("For Continue==> press C, For Exit ==> press E");
+            String s= input.next();
+            if(s.equalsIgnoreCase("E")){
                 break;
+            }else{
+
             }
 
         }while(true);
